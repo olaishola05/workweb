@@ -1,0 +1,29 @@
+/* preset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* Nav */
+
+/*  Hero page  */
+
+/* what we do  */
+
+/*  Our offer (Packages) */
+
+/* about us */
+
+/*Previous works */
+
+/* contact us  */
+
+/*  Team Member  */
+
+/*  Testimonial  */
+
+/* footer  */
