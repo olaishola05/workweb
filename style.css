@@ -1,4 +1,4 @@
-/* preset */
+/* reset */
 *,
 *::before,
 *::after {
@@ -9,9 +9,49 @@ html {
     scroll-behavior: smooth;
 }
 /* Nav */
+.navbar-nav a {
+    color: black !important;
+}
+
+.navbar-nav a:active {
+    color: #0f8bea;
+}
+
+.navbar-nav a:hover {
+    background: #0f8bea;
+    color: white !important;
+    border-radius: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.fixed-top {
+    background-color: white;
+    color: #eeeeee;
+}
 
 /*  Hero page  */
+.main {
+    margin-top: 5em;
+}
 
+.carousel-item {
+    width: 100%;
+    height: 650px;
+    position: relative !important;
+}
+.main img {
+    width: 100%;
+}
+
+.blue-overlay {
+    position: absolute;
+    top: 0x;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
 /* what we do  */
 
 /*  Our offer (Packages) */
