@@ -50,7 +50,23 @@ html {
     left: 0px;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h1 {
+    font-size: 3.2rem;
+    color: white;
+}
+
+.globe {
+    background: #0f8bea;
+    color: white;
+    width: 25rem;
+    display: block;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 0px;
 }
 /* what we do  */
 
