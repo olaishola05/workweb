@@ -32,7 +32,7 @@ html {
 
 /*  Hero page  */
 .main {
-    margin-top: 5em;
+    width: 100%;
 }
 
 .carousel-item {
@@ -50,9 +50,12 @@ html {
     left: 0px;
     height: 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.6);
 }
 
+.carousel-caption {
+    margin-bottom: 200px;
+}
 .carousel-caption h1 {
     font-size: 3.2rem;
     color: white;
@@ -67,6 +70,32 @@ html {
     margin: 0 auto;
     padding: 5px;
     margin-top: 0px;
+}
+
+.services {
+    text-align: justify;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.security {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 1px solid gray; */
+}
+
+.sec-logo {
+    width: 18%;
+    height: 85px;
+    /* background: blue; */
+    /* border: 1px solid white; */
 }
 /* what we do  */
 
