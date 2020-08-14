@@ -69,7 +69,15 @@ html {
     margin-top: 0px;
 }
 /* what we do  */
-
+.row{
+    justify-content: space-evenly;
+    
+}
+.col-3{
+     border-radius: 5px; 
+    height: 400px;
+    background-color: #F0F2F4;
+}
 /*  Our offer (Packages) */
 
 /* about us */
