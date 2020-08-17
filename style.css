@@ -99,6 +99,102 @@ html {
 }
 /* what we do  */
 
+.heading{
+    text-align: center;
+}
+.heading h6{
+    color: #108BEA;
+}
+.section{
+    padding-top: 1em;
+}
+.special-bg{
+    
+    background-color: #F0F2F4;
+    border-radius: 1em;
+}
+.cctv , .intercoms,  .ElectricFence, .alarm, .SolarInverter,.DSTV{
+    margin-bottom: 5em;
+
+}
+.DSTV{
+    padding-top: 1.5em;
+}
+.padding-bottom{
+    padding-bottom: 1.5em;
+}
+.padding-bottom-last{
+    padding-bottom: 4.5em;
+}
+.EstateSolution h5 {
+    margin-top: 3em;
+}
+.EstateSolution h6{
+
+    color: #757D75;
+}
+.EstateSolution p{
+
+  color: #757D75;
+}
+fieldset{
+    border: 3px solid #108BEA;
+}
+ul{
+    list-style-type: circle;
+  
+    
+}
+.flex-box{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.flex-2{
+    flex: 1;
+}
+.training{
+    margin: 2em;
+}
+.training h4{
+    text-align: center;
+    font-family: fantasy;
+
+    padding-top: 2em;
+}
+
+.training h6{
+    text-align: center;
+}
+.training h5{
+    text-align: center;
+    color:#108BEA ;
+}
+.training-btn{
+    color: white ;
+}
+.training-btn:hover{
+    color:black  ;
+}
+.special-bg-2{
+    background-color:#108BEA ;
+    color: white;
+}
+
+
+@media screen and (min-width:765px) {
+    ul{
+        text-align: center;
+    }
+  ul li{
+      display:inline-block;
+    margin: 1em;
+    text-align: center;
+  }
+}
+
+
 /*  Our offer (Packages) */
 
 /* about us */
