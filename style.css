@@ -98,115 +98,100 @@ html {
     /* border: 1px solid white; */
 }
 /* what we do  */
-<<<<<<< HEAD
-.row{
-    justify-content: space-evenly;
-    
-}
-.col-3{
-     border-radius: 5px; 
-    height: 400px;
-    background-color: #F0F2F4;
-}
-=======
 
-.heading{
+.heading {
     text-align: center;
 }
-.heading h6{
-    color: #108BEA;
+.heading h6 {
+    color: #108bea;
 }
-.section{
+.section {
     padding-top: 1em;
 }
-.special-bg{
-    
-    background-color: #F0F2F4;
+.special-bg {
+    background-color: #f0f2f4;
     border-radius: 1em;
 }
-.cctv , .intercoms,  .ElectricFence, .alarm, .SolarInverter,.DSTV{
+.cctv,
+.intercoms,
+.ElectricFence,
+.alarm,
+.SolarInverter,
+.DSTV {
     margin-bottom: 5em;
-
 }
-.DSTV{
+.DSTV {
     padding-top: 1.5em;
 }
-.padding-bottom{
+.padding-bottom {
     padding-bottom: 1.5em;
 }
-.padding-bottom-last{
+.padding-bottom-last {
     padding-bottom: 4.5em;
 }
 .EstateSolution h5 {
     margin-top: 3em;
 }
-.EstateSolution h6{
-
-    color: #757D75;
+.EstateSolution h6 {
+    color: #757d75;
 }
-.EstateSolution p{
-
-  color: #757D75;
+.EstateSolution p {
+    color: #757d75;
 }
-fieldset{
-    border: 3px solid #108BEA;
+fieldset {
+    border: 3px solid #108bea;
 }
-ul{
+ul {
     list-style-type: circle;
-  
-    
 }
-.flex-box{
+.flex-box {
     display: flex;
 }
-.flex-1{
+.flex-1 {
     flex: 1;
 }
-.flex-2{
+.flex-2 {
     flex: 1;
 }
-.training{
+.training {
     margin: 2em;
 }
-.training h4{
+.training h4 {
     text-align: center;
     font-family: fantasy;
 
     padding-top: 2em;
 }
 
-.training h6{
+.training h6 {
     text-align: center;
 }
-.training h5{
+.training h5 {
     text-align: center;
-    color:#108BEA ;
+    color: #108bea;
 }
-.training-btn{
-    color: white ;
+.training-btn {
+    color: white;
 }
-.training-btn:hover{
-    color:black  ;
+.training-btn:hover {
+    color: black;
 }
-.special-bg-2{
-    background-color:#108BEA ;
+.special-bg-2 {
+    background-color: #108bea;
     color: white;
 }
 
-
-@media screen and (min-width:765px) {
-    ul{
+@media screen and (min-width: 765px) {
+    ul {
         text-align: center;
     }
-  ul li{
-      display:inline-block;
-    margin: 1em;
-    text-align: center;
-  }
+    ul li {
+        display: inline-block;
+        margin: 1em;
+        text-align: center;
+    }
 }
 
-
->>>>>>> 2cd7bfc350e0485898975344b0890e197505588e
 /*  Our offer (Packages) */
 
 /* about us */
