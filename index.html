@@ -30,15 +30,34 @@
                 >
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse justify-content-center nav-container" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="#">Services</a>
                         <a class="nav-item nav-link" href="#">IT Training</a>
-                        <a class="nav-item nav-link" href="#">Previous Work</a>
                         <a class="nav-item nav-link" href="#">Gallery</a>
                         <a class="nav-item nav-link" href="#">About us</a>
                         <a class="nav-item nav-link" href="#">Contact Us</a>
+                    </div>
+
+                    <div class="social">
+                        <ul class="social mb-0 list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li class="list-inline-item call">
+                                <a href="#" class="social-link"><i class="fa fa-phone"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -79,11 +98,11 @@
                         <div class="carousel-caption d-none d-md-block">
                             <h1>SAFETY & SECURITY</h1>
                             <h2>AT YOUR FINGERTIPS</h2>
-                            <div class="security">
+                            <!-- <div class="security">
                                 <div class="sec-logo"><img src="./img/fingerprint.png" alt="fingerprint" /></div>
                                 <div class="sec-logo"><img src="./img/shield.png" alt="" srcset="" /></div>
                                 <div class="sec-logo">three</div>
-                            </div>
+                            </div> -->
                             <p class="services">
                                 From our list of comprehensive security systems including access control, electric fencing, remote gate, intrusion detection, video surveilance, fire detection and 24/7
                                 monitoring.
@@ -114,21 +133,21 @@
                 </p>
                 <div class="row">
                     <div class="col-3">
-                        <img class="mt-2" src="cctv1.jpg" alt="loading" style="width: 100%; height: 50%;" />
+                        <img class="mt-2" src="cctv1.jpg" alt="loading" style="width: 100%; height: 50%" />
                         <p class="text-black">
                             CCTV cameras are used for secuirty monitoring and surveillance in any type of facilty. CCTV stands for Closed-Circuit Television, because CCTV systems transmit video
                             footage over a single channel essentially creating a closed circuit.
                         </p>
                     </div>
                     <div class="col-3">
-                        <img class="mt-2" src="intercom.jpg" alt="loading" style="width: 100%; height: 50%;" />
+                        <img class="mt-2" src="intercom.jpg" alt="loading" style="width: 100%; height: 50%" />
                         <p class="text-black">
                             Telephone intercom enchances job efficiencies of the secuirty personnel within the house, organisation, estate and the landlords. With a phone dial from the secuirty post
                             they can avoid unwanted guest by simply calling the house number.
                         </p>
                     </div>
                     <div class="col-3">
-                        <img class="mt-2" src="satellite.png" alt="loading" style="width: 100%; height: 50%;" />
+                        <img class="mt-2" src="satellite.png" alt="loading" style="width: 100%; height: 50%" />
                         <p class="text-black">
                             Satellite is a general television entertainment, show on Tv with different problem. It very important we input in our building plan to avoid unnecessary breaking of wall
                             after completion of the building.
@@ -137,21 +156,21 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col-3">
-                        <img class="mt-2" src="fire alarm.jpg" alt="loading" style="width: 100%; height: 50%;" />
+                        <img class="mt-2" src="fire alarm.jpg" alt="loading" style="width: 100%; height: 50%" />
                         <p class="text-black mt-4">
                             Fire alarm systems are important in providing occupants of buildings prompt warning if a fire occurs. Systems that are not properly installed or maintained may cause
                             unwanted alarm activations.
                         </p>
                     </div>
                     <div class="col-3">
-                        <img class="mt-2" src="inverter.jpg" alt="loading" style="width: 100%; height: 50%;" />
+                        <img class="mt-2" src="inverter.jpg" alt="loading" style="width: 100%; height: 50%" />
                         <p class="text-black mt-3">
                             A vital component within a solar PV system, the solar power inverter converts the DC electricity produced by the solar panels to AC to feed back to use in the home, store
                             in a battery, or export to the electricity grid.
                         </p>
                     </div>
                     <div class="col-3">
-                        <img class="mt-2" src="electric fence.jpg" alt="loading" style="width: 100%; height: 50%;" />
+                        <img class="mt-2" src="electric fence.jpg" alt="loading" style="width: 100%; height: 50%" />
                         <p class="text-black mt-4">A safe and effective option to barbed wire or woven fences, electric fence systems also deter and protect against trespassers and predators.</p>
                     </div>
                 </div>
@@ -242,9 +261,7 @@
             </div>
             <div class="container special-bg-2">
                 <div class="training">
-                    <h4>
-                        Training Classes
-                    </h4>
+                    <h4>Training Classes</h4>
                     <p>
                         Get technical training on CCTV installation, MikroTik Routers, Cisco Routers, WiFi Hotspot, Wireless ISP Setup, VOIP, PBX, Fiber Optic, Cyberoam, Asterisk, Access Control and
                         many more in Nigeria
@@ -317,7 +334,7 @@
                 <div class="container py-5">
                     <div class="row h-100 align-items-center py-5">
                         <div class="col-lg-6">
-                            <h1 class="display-4">About us page</h1>
+                            <h1 class="display-4">About Us</h1>
                             <p class="lead text-muted mb-0">
                                 Cable Works Enterprises is an ingenious company registered under Cooperate affair commission (CAC), which deal solemnly on security system
                             </p>
@@ -338,9 +355,9 @@
 
             <div class="container bg-light py-5 mt-5">
                 <div class="container py-5">
-                    <div class="row mb-4">
+                    <div class="row mb-5">
                         <div class="col-lg-5 team">
-                            <h2 class="display-4 font-weight-light">Meet the Team</h2>
+                            <h2 class="display-4 font-weight-light team-caption">Meet the Team</h2>
                             <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -350,7 +367,7 @@
                         <div class="col-xl-3 col-sm-6 mb-5">
                             <div class="bg-white rounded shadow-sm py-5 px-4">
                                 <img
-                                    src="https://res.cloudinary.com/mhmd/image/upload/v1556834132/avatar-4_ozhrib.png"
+                                    src="https://res.cloudinary.com/mhmd/image/upload/v1556834133/avatar-2_f8dowd.png"
                                     alt=""
                                     width="100"
                                     class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
@@ -384,7 +401,7 @@
                                     width="100"
                                     class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm"
                                 />
-                                <h5 class="mb-0">AK Boss</h5>
+                                <h5 class="mb-0">Engr Akin Fadele</h5>
                                 <span class="small text-uppercase text-muted">CEO - Founder</span>
                                 <ul class="social mb-0 list-inline mt-3">
                                     <li class="list-inline-item">

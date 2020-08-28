@@ -3,6 +3,8 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -25,9 +27,22 @@ html {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
 .fixed-top {
     background-color: white;
     color: #eeeeee;
+    margin-top: 0px;
+}
+
+.social {
+    margin-left: 3em;
+}
+
+.social a:hover {
+    background: #0f8bea !important;
+    color: white;
 }
 
 /*  Hero page  */
@@ -94,9 +109,8 @@ html {
 .sec-logo {
     width: 18%;
     height: 85px;
-    /* background: blue; */
-    /* border: 1px solid white; */
 }
+
 /* what we do  */
 
 .heading {
@@ -206,6 +220,7 @@ ul {
     margin-left: auto;
     margin-right: auto;
 }
+
 .social-link {
     width: 30px;
     height: 30px;
@@ -221,9 +236,9 @@ ul {
 
 .social-link:hover,
 .social-link:focus {
-    background: #ddd;
+    /* background: #ddd; */
     text-decoration: none;
-    color: #555;
+    /* color: #555; */
 }
 
 /*  Testimonial  */

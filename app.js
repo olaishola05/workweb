@@ -99,3 +99,16 @@ randomBtn.addEventListener("click", function () {
     console.log(currentItem);
     showPerson();
 });
+
+const call = document.querySelector(".call");
+call.addEventListener("mouseover", function (event) {
+    console.log("hey im clicked");
+    const phoneNumber = "Call us on 0816568954";
+    event.target.style.color = "black";
+    event.target.textContent = phoneNumber;
+});
+
+call.addEventListener("mouseout", function (event) {
+    const link = document.createElement("li");
+    event.target.style.display = "none";
+});
