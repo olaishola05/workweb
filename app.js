@@ -4,14 +4,7 @@ $(".carousel").carousel({
     interval: 5000,
 });
 
-function getYear() {
-    const footer = document.getElementById("foot");
-    let date = new Date();
-    let year = date.getFullYear();
-}
-
 // Reviews
-
 // local reviews data
 const reviews = [
     {
@@ -108,7 +101,16 @@ call.addEventListener("mouseover", function (event) {
     event.target.textContent = phoneNumber;
 });
 
-call.addEventListener("mouseout", function (event) {
-    const link = document.createElement("li");
-    event.target.style.display = "none";
-});
+// call.addEventListener("mouseout", function (event) {
+//     const link = document.createElement("li");
+//     event.target.style.display = "none";
+// });
+
+// dynamic footer year
+function dynamicYear() {
+    const footer = document.getElementById("copyright");
+    footer.textContent = new Date().getFullYear();
+}
+addEventListener("DOMContentLoaded", dynamicYear);
+
+// <script>document.write(new Date().getFullYear());
