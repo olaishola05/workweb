@@ -269,7 +269,27 @@ ul {
 /*Previous works */
 
 /* contact us  */
+.contact {
+    background: #0f3f6d;
+    color: #f8f9fa;
+}
+.contact-hr {
+    color: #f8f9fa;
+    background: #f8f9fa;
+}
 
+.contact-btn {
+    background: #0f3f6d;
+    color: #f8f9fa;
+    margin-top: 2rem;
+    width: 150px;
+}
+
+.contact-btn:hover,
+:focus {
+    background: #212529;
+    color: #f8f9fa;
+}
 /*  Team Member  */
 
 .team {
