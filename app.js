@@ -93,13 +93,13 @@ randomBtn.addEventListener("click", function () {
     showPerson();
 });
 
-// const call = document.querySelector(".call");
-// call.addEventListener("mouseover", function (event) {
-//     console.log("hey im clicked");
-//     const phoneNumber = "Call us on 0816568954";
-//     event.target.style.color = "black";
-//     event.target.textContent = phoneNumber;
-// });
+const call = document.querySelector(".call");
+call.addEventListener("mouseover", function (event) {
+    console.log("hey im clicked");
+    const phoneNumber = "Call us on 0816568954";
+    event.target.style.color = "black";
+    event.target.textContent = phoneNumber;
+});
 
 // call.addEventListener("mouseout", function (event) {
 //     const link = document.createElement("li");
