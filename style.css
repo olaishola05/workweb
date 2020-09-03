@@ -311,7 +311,7 @@ ul {
 }
 
 .social-link:hover,
-.social-link:focus {
+:focus {
     /* background: #ddd; */
     text-decoration: none;
     /* color: #555; */
@@ -437,6 +437,6 @@ main {
 }
 
 /* footer  */
-#email {
+.email {
     width: 280px;
 }
