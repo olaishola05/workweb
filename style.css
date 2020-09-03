@@ -67,21 +67,6 @@ html {
     scroll-behavior: smooth;
 }
 /* Nav */
-.navbar-nav a {
-    color: black !important;
-}
-
-.navbar-nav a:active {
-    color: #0f8bea;
-}
-
-.navbar-nav a:hover {
-    background: #0f8bea;
-    color: white !important;
-    border-radius: 20px;
-    width: 120px;
-    text-align: center;
-}
 
 a {
     text-decoration: none;
@@ -102,46 +87,13 @@ a {
 }
 
 /*  Hero page  */
-.main {
-    width: 100%;
-}
 
-.carousel-item {
-    width: 100%;
-    height: 650px;
-    position: relative !important;
-}
-.main img {
-    width: 100%;
-}
+/* what we do  */
 
-.blue-overlay {
-    position: absolute;
-    top: 0x;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.6);
-}
 
-.carousel-caption {
-    margin-bottom: 200px;
-}
-.carousel-caption h1 {
-    font-size: 3.2rem;
-    color: white;
-}
 
-.globe {
-    background: #0f8bea;
-    color: white;
-    width: 25rem;
-    display: block;
-    font-size: 1.5rem;
-    margin: 0 auto;
-    padding: 5px;
-    margin-top: 0px;
-}
+r
+/*  Our offer (Packages) */
 
 .services {
     text-align: justify;
@@ -169,6 +121,7 @@ a {
 
 /* what we do  */
 
+
 .heading {
     text-align: center;
 }
@@ -181,6 +134,8 @@ a {
 .special-bg {
     background-color: #f0f2f4;
     border-radius: 1em;
+ height: 438px;
+    
 }
 .cctv,
 .intercoms,
@@ -188,28 +143,24 @@ a {
 .alarm,
 .SolarInverter,
 .DSTV {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
-.DSTV {
-    padding-top: 1.5em;
+.sectionHead{
+height: 146px;
+
 }
-.padding-bottom {
-    padding-bottom: 1.5em;
+.EstateSolution,.sales{
+    background-color: #f0f2f4;
+    border-radius: 1em;
+    margin-top: 1em;
 }
-.padding-bottom-last {
-    padding-bottom: 4.5em;
+
+
+.EstateSolution ul{
+    text-align: left;
 }
-.EstateSolution h5 {
-    margin-top: 3em;
-}
-.EstateSolution h6 {
-    color: #757d75;
-}
-.EstateSolution p {
-    color: #757d75;
-}
-fieldset {
-    border: 3px solid #108bea;
+.sales{
+    height: 263px;
 }
 ul {
     list-style-type: circle;
@@ -240,8 +191,20 @@ ul {
     text-align: center;
     color: #108bea;
 }
+.read-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 .training-btn {
     color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
 }
 .training-btn:hover {
     color: black;
@@ -249,20 +212,47 @@ ul {
 .special-bg-2 {
     background-color: #108bea;
     color: white;
+    border-radius: 1em;
+}
+.training-bg{
+    background-color: white;
+    color: black;
+    border-radius: .5em;
+    height: 17em;
+    margin-bottom: 1em;
+}
+.training-bg:hover{
+    background-color: #f0f2f4;
+}
+.traning-header{
+  border-radius: .5em;
+ height: 3.5em;
+    background-color:black;
+}
+.traning-header h4{
+    color: white;
+    font-weight: 100;
+}
+ul {
+    text-align: center;
+}
+ul li {
+    display: block;
+  
 }
 
-@media screen and (min-width: 765px) {
-    ul {
-        text-align: center;
+@media screen and (max-width:1040px){
+    .training-bg p{
+        font-size: small;
     }
-    ul li {
-        display: inline-block;
-        margin: 1em;
-        text-align: center;
+
+@media screen and (max-width:767px){
+    .training-bg p{
+        font-size:large;
     }
+ 
 }
 
-/*  Our offer (Packages) */
 
 /* about us */
 
@@ -291,6 +281,12 @@ ul {
     color: #f8f9fa;
 }
 /*  Team Member  */
+
+
+
+/*  Testimonial  */
+
+
 
 .team {
     margin-left: auto;
