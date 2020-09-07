@@ -168,6 +168,13 @@ a {
 }
 
 /* what we do  */
+.what-we-do {
+    border-radius: 1em;
+
+    background-color: #f0f2f4;
+}
+
+/*  Our offer (Packages) */
 
 .heading {
     text-align: center;
@@ -181,6 +188,7 @@ a {
 .special-bg {
     background-color: #f0f2f4;
     border-radius: 1em;
+    height: 438px;
 }
 .cctv,
 .intercoms,
@@ -188,28 +196,23 @@ a {
 .alarm,
 .SolarInverter,
 .DSTV {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
-.DSTV {
-    padding-top: 1.5em;
+.sectionHead {
+    height: 146px;
 }
-.padding-bottom {
-    padding-bottom: 1.5em;
+.EstateSolution,
+.sales {
+    background-color: #f0f2f4;
+    border-radius: 1em;
+    margin-top: 1em;
 }
-.padding-bottom-last {
-    padding-bottom: 4.5em;
+
+.EstateSolution ul {
+    text-align: left;
 }
-.EstateSolution h5 {
-    margin-top: 3em;
-}
-.EstateSolution h6 {
-    color: #757d75;
-}
-.EstateSolution p {
-    color: #757d75;
-}
-fieldset {
-    border: 3px solid #108bea;
+.sales {
+    height: 263px;
 }
 ul {
     list-style-type: circle;
@@ -240,8 +243,17 @@ ul {
     text-align: center;
     color: #108bea;
 }
+.read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .training-btn {
     color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .training-btn:hover {
     color: black;
@@ -249,16 +261,43 @@ ul {
 .special-bg-2 {
     background-color: #108bea;
     color: white;
+    border-radius: 1em;
+}
+.training-bg {
+    background-color: white;
+    color: black;
+    border-radius: 0.5em;
+    height: 17em;
+    margin-bottom: 1em;
+}
+.training-bg:hover {
+    background-color: #f0f2f4;
+}
+.traning-header {
+    border-radius: 0.5em;
+    height: 3.5em;
+    background-color: black;
+}
+.traning-header h4 {
+    color: white;
+    font-weight: 100;
+}
+ul {
+    text-align: center;
+}
+ul li {
+    display: block;
 }
 
-@media screen and (min-width: 765px) {
-    ul {
-        text-align: center;
+@media screen and (max-width: 1040px) {
+    .training-bg p {
+        font-size: small;
     }
-    ul li {
-        display: inline-block;
-        margin: 1em;
-        text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .training-bg p {
+        font-size: large;
     }
 }
 
