@@ -169,12 +169,24 @@ a {
 /* what we do  */
 .what-we-do {
     border-radius: 1em;
+    /* padding: 30px; */
+}
 
-    background-color: #f0f2f4;
+.service-container {
+    border: 1px solid #0f3f6d;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.service-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /*  Our offer (Packages) */
-
 .heading {
     text-align: center;
 }
@@ -185,9 +197,16 @@ a {
     padding-top: 1em;
 }
 .special-bg {
-    background-color: #f0f2f4;
+    background-color: #0f3f6d;
     border-radius: 1em;
-    height: 438px;
+    height: 500px;
+    padding: 15px;
+    color: white;
+    text-align: justify;
+}
+
+.special-bg p {
+    text-align: justify;
 }
 .cctv,
 .intercoms,
@@ -202,9 +221,12 @@ a {
 }
 .EstateSolution,
 .sales {
-    background-color: #f0f2f4;
+    background-color: #0f3f6d;
+    color: white;
     border-radius: 1em;
     margin-top: 1em;
+    padding: 18px;
+    text-align: justify;
 }
 
 .EstateSolution ul {
