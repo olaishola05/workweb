@@ -90,9 +90,6 @@ a {
 
 /* what we do  */
 
-
-
-r
 /*  Our offer (Packages) */
 
 .services {
@@ -111,7 +108,6 @@ r
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* border: 1px solid gray; */
 }
 
 .sec-logo {
@@ -120,8 +116,26 @@ r
 }
 
 /* what we do  */
+.what-we-do {
+    border-radius: 1em;
+    /* padding: 30px; */
+}
 
+.service-container {
+    border: 1px solid #0f3f6d;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+}
 
+.service-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*  Our offer (Packages) */
 .heading {
     text-align: center;
 }
@@ -132,10 +146,16 @@ r
     padding-top: 1em;
 }
 .special-bg {
-    background-color: #f0f2f4;
+    background-color: #0f3f6d;
     border-radius: 1em;
- height: 438px;
-    
+    height: 500px;
+    padding: 15px;
+    color: white;
+    text-align: justify;
+}
+
+.special-bg p {
+    text-align: justify;
 }
 .cctv,
 .intercoms,
@@ -145,21 +165,23 @@ r
 .DSTV {
     margin-bottom: 3em;
 }
-.sectionHead{
-height: 146px;
-
+.sectionHead {
+    height: 146px;
 }
-.EstateSolution,.sales{
-    background-color: #f0f2f4;
+.EstateSolution,
+.sales {
+    background-color: #0f3f6d;
+    color: white;
     border-radius: 1em;
     margin-top: 1em;
+    padding: 18px;
+    text-align: justify;
 }
 
-
-.EstateSolution ul{
+.EstateSolution ul {
     text-align: left;
 }
-.sales{
+.sales {
     height: 263px;
 }
 ul {
@@ -191,20 +213,17 @@ ul {
     text-align: center;
     color: #108bea;
 }
-.read-more{
+.read-more {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .training-btn {
     color: white;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-
- 
 }
 .training-btn:hover {
     color: black;
@@ -214,22 +233,22 @@ ul {
     color: white;
     border-radius: 1em;
 }
-.training-bg{
+.training-bg {
     background-color: white;
     color: black;
-    border-radius: .5em;
+    border-radius: 0.5em;
     height: 17em;
     margin-bottom: 1em;
 }
-.training-bg:hover{
+.training-bg:hover {
     background-color: #f0f2f4;
 }
-.traning-header{
-  border-radius: .5em;
- height: 3.5em;
-    background-color:black;
+.traning-header {
+    border-radius: 0.5em;
+    height: 3.5em;
+    background-color: black;
 }
-.traning-header h4{
+.traning-header h4 {
     color: white;
     font-weight: 100;
 }
@@ -238,25 +257,23 @@ ul {
 }
 ul li {
     display: block;
-  
 }
 
-@media screen and (max-width:1040px){
-    .training-bg p{
+@media screen and (max-width: 1040px) {
+    .training-bg p {
         font-size: small;
     }
-
-@media screen and (max-width:767px){
-    .training-bg p{
-        font-size:large;
-    }
- 
 }
 
+@media screen and (max-width: 767px) {
+    .training-bg p {
+        font-size: large;
+    }
+}
 
 /* about us */
 
-/*Previous works */
+/*Gallery*/
 
 /* contact us  */
 .contact {
@@ -282,11 +299,7 @@ ul li {
 }
 /*  Team Member  */
 
-
-
 /*  Testimonial  */
-
-
 
 .team {
     margin-left: auto;
